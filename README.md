@@ -10,3 +10,22 @@ This Android-only .NET MAUI mobile app allows you to compose, schedule, and publ
 - 🔐 Securely store and use access tokens
 - 🚀 Background task engine to auto-publish when due
 - 📋 Bottom tab navigation: New Post | Scheduled Posts | Settings
+
+## 🔒 Local-Only by Design
+
+- No backend or cloud sync is required
+- All tokens, media and post jobs are stored **securely** on-device
+
+## 🚀 Roadmap
+
+- [x] Android Support
+- [ ] Facebook / Instagram / YouTube API Integration
+- [ ] Background Task Scheduler
+- [ ] UI/UX Polish and Error Handling
+- [ ] CI Build Script for Direct Deployment
+
+## 🧰 Tech Stack
+
+- .NET 8 + .NET MAUI
+- SQLite via `sqlite-net`
+- Android-only (manual deployment)
