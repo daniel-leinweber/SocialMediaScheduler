@@ -1,2 +1,12 @@
-# SocialMediaScheduler
-A mobile app (Android) to schedule social media post on YouTube, Facebook and Instagram.
+# Social Media Scheduler (.NET MAUI)
+
+This Android-only .NET MAUI mobile app allows you to compose, schedule, and publish social media content across Facebook Pages, Instagram Feeds (as Reels), and YouTube channels. It supports text, images, and video posts. All posts are stored locally using SQLite. Background scheduling is handled natively on the device—there is no need for a backend server or internet connection at the time of creation.
+
+## Key Features
+
+- 📅 Schedule posts for future publication
+- 📱 Create content on your smartphone with direct media uploads
+- 📂 Local post storage using SQLite
+- 🔐 Securely store and use access tokens
+- 🚀 Background task engine to auto-publish when due
+- 📋 Bottom tab navigation: New Post | Scheduled Posts | Settings
