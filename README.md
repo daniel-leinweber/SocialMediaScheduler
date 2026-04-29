@@ -26,6 +26,6 @@ This Android-only .NET MAUI mobile app allows you to compose, schedule, and publ
 
 ## 🧰 Tech Stack
 
-- .NET 8 + .NET MAUI
+- .NET 10 + .NET MAUI
 - SQLite via `sqlite-net`
 - Android-only (manual deployment)
